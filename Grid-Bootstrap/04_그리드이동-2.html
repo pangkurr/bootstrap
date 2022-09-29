@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <!-- 부트스트랩 CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css'/>
+  <!-- 부트스트랩 테마 CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css'>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+  <!-- 부트스트랩 JS -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js'></script>
+  <!--[if lt IE 9]>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js'></script>
+  <![endif]-->
+
+  <!-- style 적용 -->
+  <style>
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+      border: 1px solid crimson;
+    }
+
+    .nested{
+      background-color: aquamarine;
+      padding:5px;
+      border-color:darkcyan;
+    }
+
+    .row{margin:10px 0;}
+  </style>
+</head>
+<!-- 
+  class 명명법
+  .container  : 고정형 그리드 시작
+  .row        : 컬럼의 그룹(구역)
+  .col        : 컬럼(단)
+      -xs-    : 너비 768px 미만
+      -sm-    : 너비 769px ~ 991px
+      -md-    : 너비 992px ~ 1199px
+      -lg-    : 너비 1200px 이상
+          1~12: 그디르 컬럼의 개수
+ -->
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5">md-5</div>
+      <div class="col-md-6">md-6</div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">md-4</div>
+      <div class="col-md-9">md-9</div>
+    </div>
+  </div>
+</body>
+</html>
